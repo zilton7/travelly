@@ -8,3 +8,46 @@
 html {
   font-size: 62.5%;
 }
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Nav Section w/ HERO */
+
+.main-head {
+  background-color: #131c27;
+  color: white;
+}
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem; /* Grow, Shrink, Basis*/
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+#logo {
+  flex: 1 1 40rem;
+}
