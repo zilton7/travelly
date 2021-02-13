@@ -28,6 +28,14 @@ a {
   color: white;
   text-decoration: none;
 }
+button {
+  padding: 2rem 6rem;
+  background: #4c6e97;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
 
 /* Nav Section w/ HERO */
 
@@ -36,10 +44,12 @@ a {
   color: white;
 }
 nav {
-  min-height: 10vh;
   display: flex;
   width: 90%;
   margin: auto;
+  padding: 2rem;
+  height: 10vh;
+  align-items: center;
 }
 nav ul {
   display: flex;
@@ -49,5 +59,22 @@ nav ul {
   list-style: none;
 }
 #logo {
-  flex: 1 1 40rem;
+  flex: 2 1 40rem;
+}
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("../travelly/img/landing-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h3 {
+  padding: 3rem;
 }
