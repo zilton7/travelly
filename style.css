@@ -55,8 +55,9 @@ nav {
   width: 90%;
   margin: auto;
   padding: 2rem;
-  height: 10vh;
+  min-height: 10vh;
   align-items: center;
+  flex-wrap: wrap;
 }
 nav ul {
   display: flex;
@@ -86,4 +87,16 @@ nav ul {
 }
 .hero h3 {
   padding: 3rem;
+}
+
+@media screen and (max-width: 932px) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
 }
